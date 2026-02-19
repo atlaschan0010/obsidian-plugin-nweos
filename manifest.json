@@ -1,0 +1,9 @@
+{
+  "id": "obsidian-nweos",
+  "name": "NWEOS网文角色卡",
+  "version": "1.0.0",
+  "description": "基于NWEOS v1.0规范的网文人物角色卡管理插件",
+  "author": "",
+  "minAppVersion": "0.15.0",
+  "schema": 1
+}

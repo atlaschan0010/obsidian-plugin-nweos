@@ -1,0 +1,24 @@
+{
+  "name": "obsidian-nweos",
+  "version": "1.0.0",
+  "description": "基于NWEOS v1.0规范的网文人物角色卡管理插件",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs && cp src/styles.css styles.css",
+    "build": "node esbuild.config.mjs production && cp src/styles.css styles.css"
+  },
+  "keywords": [
+    "obsidian",
+    "obsidian-plugin",
+    "nweos",
+    "character-card"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "esbuild": "^0.21.0",
+    "obsidian": "^1.6.0",
+    "typescript": "^5.3.0"
+  }
+}
